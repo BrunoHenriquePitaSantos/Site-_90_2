@@ -12,21 +12,13 @@ body{
     align-items: center;
 }
 
-.container-grid{
+.logo{
     width: 1200px;
-    height: 200px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-   
-}
-
-.image{
-    width: 150px;
     height: 150px;
-    margin-left: 200px;
-    
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+           
 }
 
 h1{
@@ -60,38 +52,43 @@ h1{
     padding-bottom: 20px;
     border-radius: 20px;
     border-style: none;
-    
  }
 
- input[type="text"] {
+input[type="text"] {
     width: 100%;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
+.imagem{
+    height: 150PX;
+    width: 150PX;
+    margin-left: 500PX;
+    margin-bottom: 200px;
+    
+}
 
- .botaoLogin{
+.botaoLogin{
     margin-top: 20px;
     height: 20px;
     cursor: pointer;
     width: 80px;
-    color: black;
+    color:black;
     border-style:groove;
     border-radius: 5px;
+    
 }
 
 .button{
-    height: 20px;
-    cursor: pointer;
-    width: 40px;
-    color: black;
-    border-style: none;
-
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
 }
 
-.desenvolvedor{
-    height: 50px;
-    width: 100px;
+footer{
     position: absolute;
     left: 20px;
     bottom: 20px;

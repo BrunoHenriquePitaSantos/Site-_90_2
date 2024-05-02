@@ -9,8 +9,7 @@
 
 <body>
     <header>
-        
-        <div class="container-grid">
+        <div class="logo">
             <img id="image" src="logo antigo.png">
                        
         </div>
@@ -30,21 +29,29 @@
                 <input type="text" id="inputEndereco" placeholder="">
                 <label for="inputTelefone">Digite seu telefone:</label>
                 <input type="text" id="inputTelefone" placeholder="">
-                
-                      
-                <button class="botaoLogin">Continuar</button>
+                    <button class="botaoLogin">Continuar</button>
+           
             </div>
         </div>
+        <div class="imagem">
+            <span id="imagem">
+        </div>
+        </span>
     
     </header>
-    <div>
-        <a href="desenvolvedor"><img class="desenvolvedor" src="img/desenvolvedor.png" alt=""></a>
-    </div>
-    <div  class="button">
+    <main>
+        <div class="button">
         <!-- Botão- Atualizar a pagina-->
-        <input type="button" value="Atualizar Site" onclick="atualiza()" />
+            <input type="text" value="Transformar Site" onclick="atualiza()" />
+        </div>
+    </main>
+
+    <footer>
+        
+            <!--<img id="rodape" src="img/desenvolvedor.png">-->
+        
+    </footer>
     
-    </div>
     <script>
         function atualiza() {
             document.querySelector("body").style.backgroundColor = "white"
@@ -53,15 +60,16 @@
             document.getElementById("inputs").style.fontWeight = "bold";
             document.getElementById("inputs").style.fontStyle = "italic"
             document.getElementById("inputs").style.color = "blue";
-            
             document.getElementById("texto").style.fontWeight = "bold";
             document.getElementById("texto").style.fontStyle = "italic"
-            document.getElementById("texto").style.color = "purple";
-            var elemento = document.querySelector('body');
-            elemento.style.backgroundImage = "background.png"
-
-        }
+            document.getElementById("texto").style.color = "purple";       
+            document.getElementById("imagem").innerHTML =  "<img src='img/background.png' >";
+            document.getElementById("rodape").style.display = "block"
+            
+         }
     </script>
     
 </body>
+            
+    
 </html>
